@@ -170,5 +170,5 @@ async def on_voice_state_update(member, before, after):
                     await member.send(embed=embed)
                 except Exception:
                     pass
-
-bot.run("YOUR_BOT_TOKEN_HERE")
+import os
+bot.run(os.getenv('DISCORD_TOKEN'))
