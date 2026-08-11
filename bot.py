@@ -11,10 +11,10 @@ intents.voice_states = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 # 1. أيدي الروم المخصص (مُصحح وخالي من أي مسافات مخفية)
-TARGET_CHANNEL_ID = 1536233483121201253
+TARGET_CHANNEL_ID = 1536880493730070629
 
 # 2. أيدي رتبة الإدارة أو المشرفين
-ADMIN_ROLE_ID = 1527141057442091149
+ADMIN_ROLE_ID = 1521795813171531836
 
 active_sessions = {}
 user_hours = {}
